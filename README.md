@@ -33,6 +33,15 @@ The key is read from `ELEVENLABS_API_KEY` or `XI_API_KEY`.
 
 Optional: set `ELEVENLABS_BASE_URL` if your account uses a regional API host listed in the ElevenLabs documentation.
 
+You can copy `.env.example` to `.env`, fill in values, then load them (bash or zsh):
+
+```bash
+cp .env.example .env
+set -a && source .env && set +a
+```
+
+The script does not read `.env` by itself; exporting or sourcing is required unless your environment loads it another way.
+
 ## Usage
 
 Run from the project directory with the virtual environment activated.
