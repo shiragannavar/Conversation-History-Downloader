@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+.env.*
+!.env.example
+*.xlsx
+.elevenlabs_captured_ids.json
+.DS_Store
